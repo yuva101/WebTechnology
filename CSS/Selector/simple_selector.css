@@ -1,0 +1,88 @@
+/* ...........Tag name................ */
+/* h1{
+    color:black;
+    background-color: grey;
+}
+
+p{
+    color:black;
+    background-color: grey;
+}
+
+b{
+    color:black;
+    background-color: grey;
+}
+
+i{
+    color:black;
+    background-color: grey;
+}
+
+u{
+    color:black;
+    background-color: grey;
+}
+
+section{
+    color:black;
+    background-color: grey;
+}
+
+
+div{
+    color:black;
+    background-color: grey;
+}
+
+
+nav{
+    color:black;
+    background-color: grey;
+}
+
+big{
+    color:black;
+    background-color: grey;
+}
+
+/* Grouping Selector */
+
+/* Whenever we have the same properties for multiple elemnts,Instead of repeating the properties,we can use grouping selector,the symbol we use  is comma(,) */
+ 
+/* h1,p,b,i,u,section,div,nav,big{ */
+
+    /* color:beige; */
+    /* background-color:hotpink; */
+/* }  */
+
+/* .........Universal Selector */
+/* Whenever  we have to apply the properties for all the elements present in html code,we have to use universal selector.The symbol used is (*),even including body tag alsooo */
+/* *{
+    color:black;
+    background-color: blueviolet;
+} */
+
+/* Id Selector  */
+/* To apply the css properties unjiquely we have to use id selector.
+The Symbol is (#) */
+ #thirdpara{
+    color: white;
+    background-color: crimson;
+ }
+
+  #fifthpara{
+    color: white;
+    background-color: crimson;
+    text-align: center;
+ }
+
+
+ /* Class Selector  */
+ /*  to apply the css properties for the same elements we go for class selector 
+ we use (.) operator */
+ .demo1{
+    text-align: right;
+    color: white;
+    background-color: darkgreen;
+ }

@@ -1,0 +1,6 @@
+table tr:first-child{
+    background-color: cadetblue;
+}
+table tr:nth-child(even){
+    background-color: antiquewhite;
+}

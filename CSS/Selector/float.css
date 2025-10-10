@@ -1,0 +1,16 @@
+img{
+    /* position: absolute;   overlapping */ 
+    float: right;
+    margin : 5px 10px;
+}
+
+#para1{
+    clear: right;
+     /* It will not keep anything at right side */
+     clear: left;
+     /* It will not keep anything at left side */
+     clear: both;
+     /* It will not keep anything at both side */
+    
+}
+

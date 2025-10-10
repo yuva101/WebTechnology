@@ -1,0 +1,44 @@
+#div-1{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+#div-2{
+   height: 100px;
+   width: 100px;
+   background-color: cornflowerblue; 
+   position: absolute;
+   top: 50px;
+   left: 50px;
+
+}
+#div-3{
+    height: 100px;
+    width: 100px;
+    background-color: deeppink;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+}
+#div-4{
+    height: 100px;
+    width: 100px;
+    background-color: gold;
+    position: absolute;
+    top: 0px;
+    left:50px
+}
+#div-5{
+    height: 30px;
+    width: 30px;
+    background-color:greenyellow;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    z-index:-2 ;
+}
+

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <!-- Select Example -->
+         <!-- ! How to work  with select tag
+          -select tag 
+          -option tag
+          -value attribute
+          -we can filter based on initialletter
+          
+         -->
+            <label for="">Cartoons:</label>
+            <select  name="cartoon_watch">
+                <option value="DoraBujji">Dora Bujji</option>
+                <option value="Scooby Dooby">Scooby Dooby</option>
+                <option value="Doreman">Doreman</option>
+                <option value="Heidi">Heidi</option>
+                <option value="ShinChan">ShinChan</option>
+                <option value="Ninja Hattori">Ninja Hattori</option>
+                <option value="Ben 10">Ben 10</option>
+                <option value="Moto Patlu">Moto Patlu</option>
+                <option value="">Moto Patlu</option>
+
+            </select> <br> <br>
+                <button type="submit">submit</button>
+                <button type="reset">Reset</button><br> <br>
+    </form>
+
+
+
+    <form>
+        <!-- DropDopwn  Example 2 -->
+
+        <label for="">Choose a Course:</label>
+        <select name="Courses">
+            <option value="cse">CSE</option>
+            <option value="eee">EEE</option>
+            <option value="ece">ECE</option>
+            <option value="mech">MECH</option>
+            <option value="it">IT</option>
+
+        </select><br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button><br>
+        <br>
+
+    </form>
+
+
+
+    <form>
+        <!-- Dropdown Examplke 3 -->
+<label for="">Choose a Tourist Place:</label>
+<select  name="TouristPlace">
+    <option value="Ooty">Ooty</option>
+    <option value="Palakad">Palakad</option>
+    <option value="Agra">Agra</option>
+    <option value="Yercaud">Yercaud</option>
+    <option value="Coorg">Coorg</option>
+    <option value="Mysore">Mysore</option>
+    <option value="Kodaikanal">Kodaikanal</option>
+    <option value="Marudhamalai">Marudhamalai</option>
+</select><br> <br>
+<button type="submit">Submit</button>
+<button type="reset">Reset</button>
+    </form>
+    <form>
+        <!--  Datalist 
+
+        -we select n numbber of  options  at a time
+          -->
+<label for="">SKILLS</label>
+          <input list="skillslist"/>
+          <datalist id="skillslist" name="skills">
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JS">JS</option>
+            <option value="REACT JS">REACT JS</option>
+            <option value="ANGULAR JS">ANGULAR JS</option>
+            <option value="NODE  JS">NODE  JS</option>
+            <option value="VUE JS">VUE JS</option>
+            <option value="NEXT JS">NEXT JS</option>
+            <option value="NUXT JS">NUXT JS</option>
+            <option value="SQL">SQL</option>
+            <option value="TAILWIND CSS">TAILWIND CSS</option>
+            <option value="JAVA">JAVA</option>
+            <option value="PYTHON">PYTHON</option>
+            <option value="NUMPY">NUMPY</option>
+            <option value="PANDAS">PANDAS</option>
+            <option value="MY SQL">MY  SQL</option>
+          </datalist>
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+
+
+          <br>
+    </form>
+<!-- optgroup ---to group the  option we use optgrp tag -->
+
+    <form>
+<label for="">Choose a Skills:</label>
+<select name="skills" id="" multiple>
+   <optgroup label="Frondend">
+    <option value="">HTML</option>
+    <option value="">CSS</option>
+    <option value="">JS</option>
+    <option value="">REACT JS</option>
+    <option value="">TAILWIND CSS</option>
+   </optgroup> 
+    <optgroup label="Database">
+        <option value="">SQL</option>
+    <option value="">MONGO DB</option>
+    <option value="">CASSANDRA DB</option>
+    <option value="">REDIS</option>
+    </optgroup>
+   <optgroup label="Programming Languages">
+    <option value="">PYTHON</option>
+<option value="">JAVA</option>
+<option value="">NODE JS</option>  
+   </optgroup> 
+<optgroup label="Frameworks">
+    <option value="">SPRINGBOOT</option>
+<option value="">DJANDO</option>
+<option value="">EXPRESS JS</option>
+</optgroup>
+
+</select>
+<button tupe="submit">Submit</button>
+    </form>
+<br> <br>
+<form>
+    <fieldset>
+        <legend>Shipping Address:</legend>
+        <label for="">Shipping Name:</label>
+        <input type="text"> <br>
+        <br>
+        <label for="">Street</label>
+        <input type="text"><br> <br>
+        
+    </fieldset>
+    <fieldset>
+        <legend>Billing Address:</legend>
+        <label for="">Billing Name:</label>
+        <input type="text"><br>
+        <br>
+        <label for="">Street</label>
+        <input type="text"><br>
+    </fieldset>
+</form>
+
+
+
+
+
+</body>
+</html>

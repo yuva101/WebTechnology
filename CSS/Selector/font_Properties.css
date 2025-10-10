@@ -1,0 +1,24 @@
+#demo{
+    font-size: larger;
+    /* It will specify the size of the text..
+    Values:xx-small,x-small,small,smaller,medium(d),large,larger,x-larger,xx-larger,n px */
+
+
+    font-style: italic;
+    /* it will specify theat do we need to apply italic style or not.
+    Values:normal(d),italic oblique(alternative name for italic) */
+
+
+    font-weight: 700;
+    /* It will specify the amount of boldness for the text.
+    Values:normal,bold,100-400,500-900 */
+
+    font-variant:  small-caps;
+    /* It will change to all the  small as Caps with same size not variying their original size */
+    /* !text-transform: uppercase; -- it will change the whole text as uppercase*/
+
+
+    font-family: 'Courier New', Courier, monospace;
+    /* It will specify the font style of the text */
+                                                           
+}

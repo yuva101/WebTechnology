@@ -1,0 +1,55 @@
+/* !units */
+/* ?Absolute units */
+/* These are fixed units these units will not dependent on any other 
+mm
+cm
+inch
+px
+
+/* ?Relative units */
+/* These are not fixed units,these units will dependent on others.
+%:depend on parent element size
+vw: depends on viewport width size
+vh:depends on viewport height size
+em:depends on parent element
+rem:depends on root element
+*/
+
+#div1{
+    border: solid;
+    height: 100mm;
+    height: 100cm;
+    height: 100in;
+    height: 100px;
+    background-color:crimson ;
+    width: 800px;
+}
+
+section{
+    height: 50vh;
+    width: 95vw;
+    border: solid red;
+    margin-top:50px;
+
+}
+section article{
+    height: 50%;
+    width: 50%;
+    border:solid blue;
+}
+section article div{
+    height: 50%;
+width: 50%;
+border: solid green;
+}
+section article div button{
+height: 80px;
+width: 80px;
+background-color: blue;
+color: white;
+border: none;
+border-radius: 10px;
+font-weight: 900;
+text-align: center;
+
+}

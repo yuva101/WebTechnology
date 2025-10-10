@@ -1,0 +1,82 @@
+body{
+    /* 1.color name */
+    background-color: purple;
+    background-color: rgb(10,10,69);
+
+
+    /*2.rgb(red,green,blue) 
+    Each color ranges between 0 and 255 */
+
+    background-color: rgb(255,0,0);
+    background-color: rgb(0,0,255);
+    background-color: rgb(0,255,0);
+    background-color: rgb(0,0,0);
+    background-color: rgb(255,255,255);
+    background-color: rgb(240,210,120);
+    background-color: rgb(120,150,120);
+    background-color: rgb(120,240,120);
+    background-color: rgb(240,120,240);
+    background-color: rgb(255,100,20);
+    background-color: rgb(10,20,30);
+    background-color: rgb(30,20,10);
+    background-color: rgb(200,150,50);
+    background-color: rgb(240,210,120);
+    background-color: rgb(140,150,140);
+     
+
+    /* 3.rgba(red,green,blue,alpha)
+    rgba is similar to rgb and 'a' stands for alpha which means the opacity of the color.
+    alpha ranges b/w 0.0 and 1.0 */
+
+    background-color:rgba(255,0,0,1) ;
+    background-color:rgba(255,0,0,0.8) ;
+    background-color:rgba(255,0,0,0.3) ;
+    background-color:rgba(255,0,0,0.6) ;
+    background-color:rgba(255,0,0,0.1) ;
+    background-color:rgba(0,0,255,0.4) ;
+    background-color:rgba(0,255,0,0.6) ;
+
+/* 4.HEX
+#rrggbb-each values b/w 0 to 9 and a to f. */
+
+background-color: #ff0000;
+background-color: #0000ff;
+background-color: #00ff00;
+background-color: #000000;
+background-color: #ffffff;
+background-color: #ab0256;
+background-color: #02ab56;
+
+
+/* 5.HEX
+#rgb - each value ranges b/w 0 to 9  and a to f .  */
+
+background-color: #00f;
+background-color: #000;
+background-color: #fff;
+background-color:#0f0 ;
+background-color:#123 ;
+background-color: #555;
+background-color:#666 ;
+background-color: #255;
+
+
+/* 6.HSL
+hsl(hue,saturation,lightness) */
+
+background-color: hsl(0deg,100%,50%);
+background-color: hsl(120deg,100%,50%);
+background-color: hsl(240deg,100%,50%);
+background-color: hsl(200deg,50%,50%);
+background-color: hsl(240deg,50%,50%);
+background-color: hsl(50deg,50%,50%);
+
+
+/* HSLA
+hsla(hue,saturation,lightness,alpha) */
+
+background-color: hsla(240deg,100%,50%,1);
+background-color: hsla(0deg,100%,50,0.5);
+background-color: hsla(0deg,100%,50%,1);
+background-color: hsla(0deg,50%,50%,1);
+}

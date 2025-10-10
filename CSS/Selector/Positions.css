@@ -1,0 +1,113 @@
+/* section{
+    height: 100px;
+    width: 500px;
+    border: 1px solid #250;
+} */
+
+section{
+    height: 500px;
+    width: 800px;
+    border: solid red;
+    background-color: aqua;
+    margin:  100px auto;
+    /* auto ?-- which specify the equal margin at left and right */
+
+}
+
+section div{
+    height: 100px;
+    width: 100px;
+border: solid rebeccapurple;
+text-align: center;
+color: green;
+/* display: inline; */
+/* display: block; */
+display: inline-block;
+
+}
+ section div:nth-child(1){
+    background-color: chartreuse;
+    position: static;
+    top:100px;
+
+
+ }
+
+ section div:nth-child(2){
+    background-color: goldenrod;
+
+
+position: static ;
+/* It is the default value,it will  not effect the element.
+helping properties are not required */
+ top: 100px;
+ bottom: 200px;
+
+ position: relative;
+ /* It will change the position of an element with respect to its original position
+ Helping properties are required */
+ /* ?once we assign ,the element is floating */
+ /* ?It does not allow any elements to occpy its space */
+ /* ?It will change the  position with respect to  original position  */
+
+ top: 300px;
+ left:200px;
+
+ position: absolute;
+/* It will change the position of an element with respect to its view port position
+Helping properties are required. */
+/* ?once we assign ,the element is floating */
+/* ?It will allow the other elements to occupy its space */
+/* ?It will change the position with  respect to viewport */
+
+top: 10px;
+left: 10px;
+
+
+}
+
+ section div:nth-child(3){
+    background-color: red;
+    position: relative;
+    bottom: 20px;
+ }
+
+ section div:nth-child(4){
+    background-color: blue;
+    position: relative;
+    bottom: 30px;
+
+
+
+ }
+
+ nav{
+    height: 50px;
+    width: 1000px;
+    background-color: aquamarine;
+    text-align: center;
+    font-weight: bold;
+    position: sticky;
+    top: 0px;
+ }
+
+
+ #button{
+    height: 50px;
+    width: 100px;
+    color: black;
+    background-color: crimson;
+    border-radius: 20px 20px;
+    position: fixed;
+    bottom: 10px;
+ }
+
+
+ p{
+    text-align: start;
+    background-color: darkgreen;
+    color: white;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+ }

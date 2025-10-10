@@ -1,0 +1,70 @@
+p{
+/* ?color */
+    color: hotpink;
+    /* It will specifty the color of  the text content
+    values:any color,black(default) */
+/* ?text-align */
+text-align: justify;
+/* It  will  specify the alignment of the  content
+values:left(default),center,right,justify,start,end */
+
+
+/* ?text-transform */
+text-transform: capitalize;
+/* It will convert the text cases
+Values:none(default),uppercase,lowercase,capitalize*/
+
+/* ?text-decoration:
+text-decoration-line
+text-decoration-style
+text-decoration-color
+
+ */
+/* ?text-decoration-line */
+ text-decoration:underline ;
+ /* It will  specify the type of  line  we want toi apply to the content
+ Values:none(default),underline,overline,line-through
+ The default of anchor tag is underline */
+
+ /* ?text-decoration-style */
+ text-decoration-style: double;
+ /*  It will specify the style of text-decoration-style.
+  values:solid(default),dotted,dashed,double,wavy;*/
+
+  /* ?text-decoration-color */
+  text-decoration-color: chartreuse;
+  /* It will  specify the  color of the  text-decoration-line
+  values:any color,text-color(default) */
+
+
+  /* ?we will givw the text-decoration in one line */
+text-decoration: underline wavy goldenrod;
+
+/* ?spacingggg....... */
+letter-spacing: 10px;
+word-spacing:50px ;
+line-height: 50px;
+text-indent: 100px;
+}
+
+
+h1{
+    color:fuchsia;
+    text-align: center;
+}
+
+a{
+    text-decoration-line:none ;
+}
+div{
+    line-height: 50px;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    /* ?text-shadow: x-axis,y-axis, blur, color */
+    text-shadow: 2px 2px 3px black;
+}
+h2{
+    text-wrap:wrap;
+ } 

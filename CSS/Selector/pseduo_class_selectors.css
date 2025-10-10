@@ -1,0 +1,39 @@
+
+
+input:checked{
+    height:50px;
+    width:50px;
+}
+
+input+p{
+    display: none;
+}
+
+input:checked+p{
+    display: block;
+    color: darkgreen;
+}
+
+input:focus{
+    color:crimson
+}
+/* ............... */
+span{
+    height: 50px;
+    width: 300px;
+    border: solid red;
+}
+div{
+     height: 50px;
+    width: 300px;
+    border: solid red;
+}
+
+/* /* ................. */
+input:focus+b{
+    color:darkgoldenrod;
+}
+
+input:focus+b::after{
+    content:"Focused...!";
+}

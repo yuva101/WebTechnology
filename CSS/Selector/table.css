@@ -1,0 +1,9 @@
+tr:first-child{
+    color: white;
+    background-color: cadetblue;
+}
+tr:nth-child(2n+3){
+    color:cadetblue;
+background-color: antiquewhite;
+
+}

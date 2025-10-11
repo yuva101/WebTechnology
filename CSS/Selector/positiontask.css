@@ -1,0 +1,28 @@
+section{
+    border: 1px solid red;
+    height: 400px;
+    width: 600px;
+    margin: 40px 40px;
+}
+section article{
+    border: 1px solid green;
+    height: 200px;
+    width: 80px;
+    display: inline-block;
+}
+ div{
+    border: 1px solid orchid;
+    height: 80px;
+    width: 40px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+button{
+    border: 1px solid orchid;
+    height: 40px;
+    width: 20px;
+    position: absolute;
+    top: 300px;
+    left: 100px;
+}

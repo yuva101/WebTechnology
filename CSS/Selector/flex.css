@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    height: 500px;
+    width: 800px;
+    border: solid red;
+    background-color: bisque;
+    display: flex;
+    /* It will consider the element as a flex container
+    If we apply some properties to the flex container,Flex items will get adjeted */
+
+    justify-content: center;
+    /* It will align the flex-items in x-axis 
+    Values: start(default),center,end,flex-start,flex-end*/
+
+    align-items: start;
+    /* It will align the flex-items in y-axis
+    Values:start(default),center,end  ,flex-start,flex-end */
+}
+#container div{
+    height: 50px;
+    width: 50px;
+    border: solid blue;
+    background-color: chocolate;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    
+}

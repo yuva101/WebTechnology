@@ -1,0 +1,23 @@
+div{
+    height: 100px;
+    border: solid crimson;
+    display: none;
+    /* It will not display anything */
+    display: block;
+    /* It will display as block level elements */
+    display: inline;
+    /* It will display as inline elements */
+    display: inline-block;
+    /* It will display as inline-block level element
+    It will accept height and width properties
+    It willl display on the same line */
+}
+span{
+    height: 50px;
+    /* It will apply for inline elements */
+    border: solid blue;
+    display: none;
+    display: inline;
+    display: block;
+    display: inline-block;
+}

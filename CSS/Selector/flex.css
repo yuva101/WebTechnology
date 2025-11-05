@@ -12,13 +12,46 @@
     /* It will consider the element as a flex container
     If we apply some properties to the flex container,Flex items will get adjeted */
 
-    justify-content: center;
-    /* It will align the flex-items in x-axis 
-    Values: start(default),center,end,flex-start,flex-end*/
+    justify-content: space-evenly;
+    /* It will align the flex-items in main axis 
+    Values: start(default),center,end,flex-start,flex-end,space-between,space-evenly,space-around*/
 
+    /* ?space-between---it provide the space between the elements excluding start and end(1st element will go to the 1st&& last element will go to the last */
+
+    /* ?space-evenly----it provides the even space including start and end */
+
+
+    /* ?space-around-- it provides the space around the  elements including left and right */
+    
     align-items: start;
-    /* It will align the flex-items in y-axis
+    /* It will align the flex-items in cross axis
     Values:start(default),center,end  ,flex-start,flex-end */
+
+    flex-direction:row ;
+    /* It will specify the dierction of flex-items 
+    It will also decide the main axis and cross-axis
+    Values:row(default),row-reverse,column,column-reverse*/
+
+
+    flex-wrap: wrap;
+    /* It will allows flex-items wrap into next line
+    Values:nowrap(default),wrap,wrap-reverse */
+
+
+    align-content: center;
+    /* It will specify the  position of wrapped flex-items
+    Values:normal(default),start,center,end,space-between,space-evenly,space-around */
+    
+    row-gap: 10px;
+    /* It will specify the gap between the rows
+    value:any value,0px{default) */
+    column-gap: 20px;
+    /* It will specify the gap between the columns
+    value:any value,0px{default) */
+    /* ?gap--it is a short-hand property of row-gap and  column-gap */
+    gap: 10px 30px;
+    /* It specify the gap for both row and column */
+    gap: 40px;
 }
 #container div{
     height: 50px;
@@ -29,4 +62,27 @@
     text-align: center;
     color: white;
     
+}
+#container div:nth-child(1){
+    background-color: teal;
+    /* flex-grow: 1; */
+    /* flex-shrink: 0; */
+    flex: 1;
+}
+#container div:nth-child(2){
+    background-color: maroon;
+    /* flex-grow: 1; */
+    /* flex-shrink: 10; */
+    flex: 1;
+}
+#container div:nth-child(3){
+    background-color: green;
+    /* flex-grow: 1; */
+    /* flex-shrink: 0; */
+    flex: 1;
+}#container div:nth-child(4){
+    background-color: olive;
+    /* flex-grow: 1; */
+    /* flex-shrink: 0; */
+    flex: 1;
 }

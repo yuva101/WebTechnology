@@ -39,6 +39,6 @@
     position: absolute;
     top: 25px;
     left: 25px;
-    z-index:-2 ;
+    z-index:2;
 }
 

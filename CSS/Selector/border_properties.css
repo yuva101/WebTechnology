@@ -3,7 +3,7 @@
 #box2{
     height:500px;
     width:500px;
-    border : 5px solid  crimson ;
+    border : 5px ridge  crimson ;
     border-left: 50px;
     border-right: 50px;
     border-top: 70px;
@@ -12,15 +12,17 @@
     background-color: chartreuse;
     background-size:cover ;
 
-    border-radius: 10px 20px 30px 40px;
+    /* border-radius: 10px 20px 30px 40px;
     /* top-left, top-right,bottom-right,bottom-left */
-    border-radius: 10px,20px,30px;
+    /* border-radius: 10px,20px,30px; */
     /* top-left,top-right&bottom-left,bottom-right */
-    border-radius: 10px,20px;
+    /* border-radius: 10px,20px; */
     /* top-left&bottom-right ,top-right&bottom-left */
-    border-radius: 50px;
-    /* top-right&bottom-right&top-left&bottom-left */
+    /* border-radius: 50px; */
+    /* top-right&bottom-right&top-left&bottom-left */ 
+
 }
+
 
 
 table{

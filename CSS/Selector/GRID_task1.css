@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    height: 500px;
+    width: 1000px;
+    /* border: solid red; */
+    /* background-color: bisque; */
+    display: grid;/*It will allows to access all the grid properties
+    grid-template-columns: 200px 200px 150px 120px 50px 60px;
+    /* It will specify the no of columns in a grid container 
+    VAlues:1st ColumnWidth 2nd columnWidth 3rdColumnWidth..... */
+}
+
+#container{
+    grid-template-columns:200px 200px 200px 200px;
+    grid-template-columns:150px 150px 150px 150px;
+    grid-template-columns: repeat(4,150px);
+    grid-template-columns: repeat(4,200px);
+    grid-template-columns:150px 150px 150px 150px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: 0.7fr 2.5fr 2.5fr;
+
+    grid-template-rows: repeat(5,1fr);
+    grid-template-rows: 1fr 2fr 2fr 1fr;
+
+    row-gap: 10px;
+    column-gap: 30px;
+    gap: 10px 30px;
+    gap: 5px;
+
+
+}
+
+#container div{
+    /* height: 100px;
+    width: 100px; */
+    /* border: solid blue; */
+
+background-color: green;
+
+display: flex;
+justify-content: center;
+align-items: center;
+font-weight: bold;
+font-size: 30px;
+/* border-radius: 20px; */
+
+}
+#container div:nth-child(1){
+    background-color: green;
+    color: black;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+border: solid black;
+
+}
+#container div:nth-child(6){
+    background-color: green;
+    color: black;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 4;
+border: solid black;
+
+}
+#container div:nth-child(2){
+    background-color: green;
+    color: black;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+border: solid black;
+}
+#container div:nth-child(3){
+    background-color: green;
+    color: black;
+    /* grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 4;
+     */
+
+     /* grid-row: 2/3;
+     grid-column: 2/4;
+      */
+
+      grid-area:2/2/3/4 ;
+border: solid black;
+
+}
+#container div:nth-child(4){
+    background-color: green;
+    color: black;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 4;
+border: solid black;
+}
+#container div:nth-child(5){
+    background-color: green;
+    color: black;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+border: solid black;
+}

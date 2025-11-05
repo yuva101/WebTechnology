@@ -64,7 +64,7 @@ console.log(obj);
 console.log("********************")
 
 // ~Object Methods
-// ^1.keys()--- It will  dispaly all the keys present in an object.it wilkl return an array.
+// ^1.keys()--- It will  dispaly all the keys present in an object.it wil return an array.
 
 // ! syntax:Object.keys(objName)
 let obj1={
@@ -73,7 +73,7 @@ let obj1={
 }
 console.log(Object.keys(obj1));
 
-// ^2.Values()--- It will  dispaly all the values present in an object.it wilkl return an array.
+// ^2.Values()--- It will  dispaly all the values present in an object.it will return an array.
 // ! syntax:Object.Values(objName)
 
 
@@ -90,7 +90,7 @@ console.log(Object.values(obj1));
 console.log(obj1.hasOwnProperty("sname"));
 console.log(obj1.hasOwnProperty("empname"));
 
-// ^5.assign()---It will merge 2or more object into 1.
+// ^5.assign()---It will merge 2 or more object into 1.
 // or
 //^ Object.assign(obj1, obj2, obj3, ...) - It will merge the object into first variable name
 // !sysntax:Object.assign(target,source1,source2,.......sourceN)

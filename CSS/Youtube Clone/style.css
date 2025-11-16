@@ -1,0 +1,246 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0f0f0f;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+#mainNavBar {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* border: solid red; */
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 20px;
+}
+
+#mainNavBar #togglePart {
+  /* border: solid blue; */
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#mainNavBar #togglePart #toggleIcon {
+  background-color: #222222;
+  /* border: solid red; */
+  padding: 10px;
+  border-radius: 50%;
+}
+
+#mainNavBar #togglePart #toggleIcon:hover {
+  background-color: #333;
+  border: 0.5px solid #444;
+}
+
+#mainNavBar #togglePart .fa-bars {
+  /* border: solid green; */
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#mainNavBar #togglePart img {
+  /* border: solid green; */
+  height: 95%;
+  color: white;
+}
+
+#mainNavBar #searchBarPart {
+  /* border: solid blue; */
+  height: 100%;
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+#mainNavBar #searchBarPart div {
+  height: 100%;
+  border: 0.5px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#mainNavBar #searchBarPart .search {
+  flex: 1;
+  border-radius: 50px 50px 50px 50px;
+  position: relative;
+}
+
+#mainNavBar #searchBarPart .search .hidden {
+  display: none;
+  position: absolute;
+  z-index: 10;
+  /* border: solid brown; */
+  left: 2px;
+  height: 100%;
+  width: 50px;
+  padding: 10px;
+}
+
+#mainNavBar #searchBarPart .search input {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  padding: 10px 40px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+#mainNavBar #searchBarPart .search .rightOne {
+  position: absolute;
+  right: 0px;
+  border: 0.5px solid gray;
+  padding: 9px 20px;
+  background-color: #222222;
+  border-radius: 0px 50px 50px 0px;
+}
+
+#mainNavBar #searchBarPart .mic {
+  padding: 15px;
+  background-color: #222222;
+  border-radius: 50%;
+  font-size: 14px;
+}
+
+#mainNavBar #profile {
+  /* border: solid blue; */
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+#mainNavBar #profile div {
+  /* border: solid red; */
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 20px;
+  font-size: 16px;
+}
+
+/* ! ================= main Container starts here =========== */
+#mainContainer {
+  /* border: solid red; */
+  height: 93vh;
+  display: flex;
+}
+
+#mainContainer #sideNavBar {
+  /* border: solid blue; */
+  max-width: 300px;
+  width: min-content;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+#mainContainer #sideNavBar .options {
+  /* border: solid blue; */
+  border-radius: 10px;
+  display: flex;
+  padding: 15px 15px;
+  gap: 30px;
+}
+
+#mainContainer #sideNavBar .options .displayNone {
+  display: none;
+}
+
+#mainContainer #sideNavBar .options:hover {
+  background-color: #222222;
+}
+
+#mainContainer #sideNavBar .line .mainLine {
+  border: 0.5px solid #222222;
+}
+
+/* ! ================= videos container code ====================== */
+#mainContainer #videos_container {
+  /* border: solid blue; */
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1%;
+  overflow: scroll;
+  --webkit-scroll-bar: none;
+}
+
+#mainContainer #videos_container .videoBox {
+  /* border: solid red; */
+  width: 400px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+#mainContainer #videos_container .videoBox .thumbnail {
+  /* border: solid blue; */
+  flex: 1;
+  position: relative;
+}
+
+#mainContainer #videos_container .videoBox .thumbnail .thumbnail_img {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+  border-radius: 10px;
+}
+
+#mainContainer #videos_container .videoBox .thumbnail .thumbnail_video {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+#mainContainer #videos_container .videoBox .content {
+  /* border: solid green; */
+  display: flex;
+  gap: 20px;
+  height: 80px;
+  align-items: center;
+  padding-left: 10px;
+}
+
+#mainContainer #videos_container .videoBox .content .logo {
+  height: 70%;
+  border-radius: 50%;
+}
+
+#mainContainer #videos_container .videoBox .content .logo img {
+  height: 100%;
+  border-radius: 50%;
+}
+
+a:any-link{
+  color: rgba(255, 255, 255, 0.862);
+  text-decoration: none;
+}
+
+#user_input{
+  color: rgba(255, 255, 255, 0.911);
+}
